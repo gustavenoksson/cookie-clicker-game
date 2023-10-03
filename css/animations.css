@@ -1,0 +1,62 @@
+@keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+      scale: 0;
+    }
+    15% {
+      transform: rotateZ(-15deg);
+      scale: 1;
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+      scale: 0.0;
+      opacity: 0;
+    }
+  }
+
+  @keyframes flyaway {
+    0%   { transform: rotate(10deg);
+           height: 30px; }
+    5%   { transform: rotate(10deg);
+           height: 30px; }
+    20%   { transform: rotate(-20deg);
+            height: 45px; }  
+    40%   { transform: rotate(10deg);
+            opacity: 1; }
+    100% { transform: rotate(60deg);
+           height: 0;
+           opacity: 0; }
+  }
+
+  @keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.wiggle {
+    animation: wiggle 1s linear;
+}
+
+.flyaway {
+    animation: flyaway 1s linear;
+}
+
+.spin {
+    animation: spin 1s linear;
+}

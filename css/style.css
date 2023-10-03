@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'VT323', monospace;
+    font-size: 16px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 56px;
+    color: #113255;
+}
+
+/* index.php */
+
+.formSection {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.formSection p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #444;
+}
+
+.form {
+    width: 80%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.form label {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #444;
+}
+
+.form input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.form button {
+    width: 100%;
+    background-color: #004a99;
+    color: #f2f2f2;
+    padding: 10px;
+    border-radius: 3px;
+    border:none;
+}
+
+.form a {
+    color: #004a99;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    background-color: #0077cc;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+button {
+    font-size: 1.1rem;
+    padding: 8px;
+    background-color: #0077cc;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.hire_employee_btn {
+    font-size: 1.2rem;
+    width: 300px;
+}
+
+.employee_info {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.money_count {
+    font-weight: bold;
+}
